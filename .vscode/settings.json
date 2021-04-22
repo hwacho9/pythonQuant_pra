@@ -1,4 +1,8 @@
 {
     "python.formatting.provider": "black",
-    "python.pythonPath": "C:\\Users\\csh77\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "python.pythonPath": "C:\\Users\\csh77\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args":["--max-line-length=88"]
 }
