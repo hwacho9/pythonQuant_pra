@@ -1,5 +1,12 @@
 import pandas as pd
 
+"""
+다수의 Series를 하나의 변수로 관리할 수 있도록 만든 자료형
+Series의 dict 형태라고 보면됨
+{'컬럼명1': Series1, '컬럼명2': Series2}
+각 Series는 DataFrame의 column을 이룸
+당연히 DataFrame을 이루는 Series간의 index는 서로 다 같음! => 동일 index 사용
+"""
 
 a = pd.Series([1, 2, 3, 4])
 print(a)
